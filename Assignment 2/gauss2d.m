@@ -6,5 +6,5 @@
 
 function density = gauss2d(x,mean,covmat)
     [m,~] = size(x);
-    density = 1 / sqrt(((2*pi)^m) * det(covmat)) * exp(-0.5*(x-mean)'*covmat*(x-mean));
+    density = 1 / sqrt(((2*pi)^m) * det(covmat)) * exp(-0.5*(x-mean)'*inv(covmat)*(x-mean));
 end

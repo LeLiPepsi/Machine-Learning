@@ -1,4 +1,4 @@
-%% log-likelihood function with respect to whole dataset x 
+%% log-likelihood function with respect to the whole dataset x 
 %% given parameters theta(priors, means and cov. matrices)
 % Input: x      - dataset(n samples, each sample with dimension 2 x 1)
 %        priors - vector with dimension k x 1
